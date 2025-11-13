@@ -24,7 +24,7 @@ root.render(
       <ThemeProvider theme={theme}> {/*./theme.ts*/}
         <CssBaseline />
         <MainLayout>
-          <BrowserRouter>
+          <BrowserRouter basename="/unotennis">
             <App />
           </BrowserRouter>
         </MainLayout>
