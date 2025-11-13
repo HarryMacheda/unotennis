@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import Pages from "vite-plugin-pages";
 
 export default defineConfig({
-  base: `/unotennis/`
+  base: `/unotennis/`,
   plugins: [
     react(),
     Pages({
